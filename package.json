@@ -1,0 +1,33 @@
+{
+  "name": "timerapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "server": "nodemon server.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "concurrently": "^6.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-oauth-jwt": "^0.2.0",
+    "googleapis": "^39.2.0",
+    "helmet": "^4.6.0",
+    "imagekit": "^3.2.5",
+    "moment-timezone": "^0.5.33",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.4",
+    "multer-google-drive": "^1.0.3",
+    "multer-google-drive-teams-storage": "^1.1.0",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.14",
+    "sharp": "^0.30.2"
+  }
+}
